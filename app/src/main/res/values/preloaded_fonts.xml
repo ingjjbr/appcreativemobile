@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="preloaded_fonts" translatable="false">
+        <item>@font/caveat_bold</item>
+        <item>@font/dhurjati</item>
+        <item>@font/oswald</item>
+        <item>@font/roboto</item>
+        <item>@font/roboto_medium</item>
+    </array>
+</resources>
