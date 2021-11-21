@@ -19,6 +19,16 @@
         <item name="android:fontFamily">@font/oswald_bold</item>
         <item name="android:textColor">#3F51B5</item>
     </style>
+    <style name="DescripcionAventuraList">
+        <item name="android:textSize">22sp</item>
+        <item name="android:fontFamily">@font/oswald_bold</item>
+        <item name="android:textColor">#3F51B5</item>
+    </style>
+    <style name="CalificacionAventuraList">
+        <item name="android:textSize">22sp</item>
+        <item name="android:fontFamily">@font/oswald_bold</item>
+        <item name="android:textColor">#3F51B5</item>
+    </style>
 
 
 </resources>
