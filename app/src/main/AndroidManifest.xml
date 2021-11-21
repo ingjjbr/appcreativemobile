@@ -11,16 +11,18 @@
         android:theme="@style/Theme.Appdesdecero">
         <activity
             android:name=".ListPOIActivity"
-            android:exported="false" />
+
+        android:exported="true">
+        <intent-filter> <!-- indica que se abre una actividad -->
+            <action android:name="android.intent.action.MAIN" />
+
+            <category android:name="android.intent.category.LAUNCHER" />
+        </intent-filter>
+    </activity>
         <activity
             android:name=".MainActivity"
-            android:exported="true">
-            <intent-filter> <!-- indica que se abre una actividad -->
-                <action android:name="android.intent.action.MAIN" />
+            android:exported="false"/>
 
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
 
         <meta-data
             android:name="preloaded_fonts"

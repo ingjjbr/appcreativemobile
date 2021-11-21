@@ -2,7 +2,8 @@ package com.ancreandoideas.appdesdecero
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import androidx.recyclerview.widget.DividerItemDecoration
+//import androidx.recyclerview.widget.DividerItemDecoration
+import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 
 class ListPOIActivity : AppCompatActivity() {
@@ -17,8 +18,13 @@ class ListPOIActivity : AppCompatActivity() {
         poisrecyclerView=findViewById(R.id.RecyclerView_POI)
         listPois =createMockPois()
         poisAdapter= POIListAdapter(listPois)
-        poisrecyclerView.addItemDecoration(DividerItemDecoration(this,DividerItemDecoration.VERTICAL))
-        poisrecyclerView.adapter=poisAdapter
+        //poisrecyclerView.addItemDecoration(DividerItemDecoration(this,DividerItemDecoration.VERTICAL))
+        poisrecyclerView.apply {
+            layoutManager=LinearLayoutManager(context)
+            adapter=poisAdapter
+            setHasFixedSize(false)
+        }
+
     }
 
 
@@ -27,12 +33,12 @@ class ListPOIActivity : AppCompatActivity() {
             Poi(
                 name = "Rafting",
                 description = "Rafting Chibiriquete",
-                rating = 4.0,
+               // rating = 4.0,
             ),
             Poi(
                 name = "Vuelo",
                 description = "Sobre volar la sierra de  Chibiriquete",
-                rating = 4.5,
+               // rating = 4.5,
             )
         )
     }
