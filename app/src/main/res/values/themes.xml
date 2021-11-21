@@ -13,4 +13,12 @@
         <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
         <!-- Customize your theme here. -->
     </style>
+
+    <style name="NameAventuraList">
+        <item name="android:textSize">22sp</item>
+        <item name="android:fontFamily">@font/oswald_bold</item>
+        <item name="android:textColor">#3F51B5</item>
+    </style>
+
+
 </resources>
