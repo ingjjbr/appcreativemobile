@@ -17,10 +17,10 @@ class ListPOIActivity : AppCompatActivity() {
         setContentView(R.layout.activity_list_poiactivity)
 
         poisrecyclerView=findViewById(R.id.RecyclerView_POI)
-        //listPois =createMockPois()
+
         listPois =loadMockPoisfromJson()
         poisAdapter= POIListAdapter(listPois)
-        //poisrecyclerView.addItemDecoration(DividerItemDecoration(this,DividerItemDecoration.VERTICAL))
+
         poisrecyclerView.apply {
             layoutManager=LinearLayoutManager(context)
             adapter=poisAdapter
