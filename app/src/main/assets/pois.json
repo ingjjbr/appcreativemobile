@@ -1,0 +1,39 @@
+[
+  {
+    "urlPicture":"https://es.seaicons.com/wp-content/uploads/2016/05/airplane-icon.png",
+    "name" : "Rafting",
+    "description" : "Sobre volar la sierra de  Chibiriquete",
+    "rating":4.7
+  },
+  {
+    "urlPicture":"https://res.cloudinary.com/creativemobile/image/upload/v1637639554/Iconos%20Actividades/rafting_hbuoiw.png",
+    "name" : "Rafting",
+    "description" : "Navegar por el rio Pato guiado por los desmovilizados",
+    "rating":4.6
+  },
+  {
+    "urlPicture":"https://es.seaicons.com/wp-content/uploads/2016/05/airplane-icon.png",
+    "name" : "Vuelo",
+    "description" : "Sobre volar la sierra de  Chibiriquete",
+    "rating":4.5
+  },
+  {
+    "urlPicture":"https://es.seaicons.com/wp-content/uploads/2016/05/airplane-icon.png",
+    "name" : "Vuelo",
+    "description" : "Sobre volar la sierra de  Chibiriquete",
+    "rating":4.5
+  },
+  {
+    "urlPicture":"https://es.seaicons.com/wp-content/uploads/2016/05/airplane-icon.png",
+    "name" : "Vuelo",
+    "description" : "Sobre volar la sierra de  Chibiriquete",
+    "rating":4.5
+  },
+  {
+    "urlPicture":"https://es.seaicons.com/wp-content/uploads/2016/05/airplane-icon.png",
+    "name" : "Vuelo",
+    "description" : "Sobre volar la sierra de  Chibiriquete",
+    "rating":4.5
+  }
+
+]
