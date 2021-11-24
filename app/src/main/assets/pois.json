@@ -30,9 +30,9 @@
     "rating":4.8
   },
   {
-    "urlPicture":"https://es.seaicons.com/wp-content/uploads/2016/05/airplane-icon.png",
-    "name" : "Vuelo",
-    "description" : "Sobre volar la sierra de  Chibiriquete",
+    "urlPicture":"https://res.cloudinary.com/creativemobile/image/upload/v1637639560/Iconos%20Actividades/senderismo_kpb9is.png",
+    "name" : "Senderismo",
+    "description" : "Caminar es el mejor ejercicio y hacerlo en un territorio virgen es un privilegio de pocos, no te pierdas esta experiencia ",
     "rating":4.5
   }
 
