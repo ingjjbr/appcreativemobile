@@ -9,4 +9,9 @@
     <string name="introcuccion">El Parque Nacional de Chiribiquete destaca no solo por su impresionante extensión de casi 3 millones de hectáreas, sino también por su rica biodiversidad. El parque posee la fauna representativa en el área amazónica, tales como el jaguar, el tapir y el águila arpía, entre otros. En cuanto a la vegetación, se puede agrupar en diferentes biomas que se encuentran dentro del parque como las áreas de sabana, bosques inundables, bosques de tierra firme y bosques de tepuy.  El Parque Nacional Natural Chiribiquete se estableció el 21 de septiembre de 1989. El parque se amplió de los 13.000 km2 anteriores  a 28.000 km2  el 21 de agosto de 2013. El presidente colombiano, Juan Manuel Santos, anunció que el Parque Nacional Chiribiquete se ampliaría en 15.000 km2 el 21 de febrero de 2018. El parque se amplió a 43.000 km2 y fue declarado Patrimonio de la Humanidad por la UNESCO el 2 de julio de 2018.</string>
     <string name="aventiras" />
     <string name="aventuras">Aventuras</string>
+    <string name="titulo_aventura_list">Rafting</string>
+    <string name="imagen_descripcion">icono de aventura</string>
+    <string name="name_aventura_list">Rafting</string>
+    <string name="descripcion_aventura_list">Decripcion</string>
+    <string name="Calificacion_aventura_list">Calificacion</string>
 </resources>
