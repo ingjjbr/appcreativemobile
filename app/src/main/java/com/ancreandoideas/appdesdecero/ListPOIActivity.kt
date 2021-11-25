@@ -19,7 +19,7 @@ class ListPOIActivity : AppCompatActivity() {
         poisrecyclerView=findViewById(R.id.RecyclerView_POI)
 
         listPois =loadMockPoisfromJson()
-        poisAdapter= POIListAdapter(listPois)
+        poisAdapter= POIListAdapter(listPois, this)
 
         poisrecyclerView.apply {
             layoutManager=LinearLayoutManager(context)
