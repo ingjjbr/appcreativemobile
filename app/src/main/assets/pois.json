@@ -1,8 +1,10 @@
 [
   {
+
     "urlPicture":"https://res.cloudinary.com/creativemobile/image/upload/v1637639565/Iconos%20Actividades/vuelo_urrqtl.png",
     "name" : "Sobre volar la sierra de  Chibiriquete",
     "description" : "No te pierdas esta maravilla de ver la serrania desde el cielo, no te lo pierdas",
+
     "rating":4.7
   },
   {
@@ -12,6 +14,7 @@
     "rating":4.6
   },
   {
+
     "urlPicture":"https://res.cloudinary.com/creativemobile/image/upload/v1637639538/Iconos%20Actividades/ave_qn4gko.png",
     "name" : "Avistamiento de Aves",
     "description" : "Descubrieron una posible nueva subespecie de ave, endémica : la mirla (Turdus leucolaemus)",
@@ -33,6 +36,7 @@
     "urlPicture":"https://res.cloudinary.com/creativemobile/image/upload/v1637639560/Iconos%20Actividades/senderismo_kpb9is.png",
     "name" : "Senderismo",
     "description" : "Caminar es el mejor ejercicio y hacerlo en un territorio virgen es un privilegio de pocos, no te pierdas esta experiencia ",
+
     "rating":4.5
   }
 
