@@ -51,34 +51,20 @@
                 app:layout_constraintTop_toTopOf="parent" />
 
             <TextView
-                android:id="@+id/textViewdescripcion_al"
-                style="@style/DescripcionAventuraList"
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:layout_marginStart="20dp"
-                android:layout_marginTop="16dp"
-                android:layout_marginBottom="8dp"
-                android:text="@string/descripcion_aventura_list"
-                android:textAlignment="center"
-                app:layout_constraintBottom_toTopOf="@+id/textViewcalificacion_al"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintStart_toEndOf="@+id/imageViewaventura_list"
-                app:layout_constraintTop_toBottomOf="@+id/textViewname_al" />
-
-            <TextView
                 android:id="@+id/textViewcalificacion_al"
                 style="@style/CalificacionAventuraList"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="8dp"
-                android:layout_marginTop="8dp"
-                android:layout_marginBottom="24dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginBottom="4dp"
                 android:text="@string/Calificacion_aventura_list"
                 android:textAlignment="center"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="1.0"
                 app:layout_constraintStart_toEndOf="@+id/imageViewaventura_list"
-                app:layout_constraintTop_toBottomOf="@+id/textViewdescripcion_al" />
+                app:layout_constraintTop_toBottomOf="@+id/textViewname_al" />
 
         </androidx.constraintlayout.widget.ConstraintLayout>
     </androidx.cardview.widget.CardView>

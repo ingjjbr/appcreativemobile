@@ -13,19 +13,18 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Appdesdecero">
         <activity
-            android:name=".PoiDetalleActivity"
-            android:exported="false" />
+            android:name=".detalle.PoiDetalleActivity"
+            android:exported="true" />
         <activity
-            android:name=".ListPOIActivity"
+            android:name=".list.ListPOIActivity"
             android:exported="true">
             <intent-filter> <!-- indica que se abre una actividad -->
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
         <activity
-            android:name=".MainActivity"
+            android:name=".main.MainActivity"
             android:exported="false" />
 
         <meta-data
