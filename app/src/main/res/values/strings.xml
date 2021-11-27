@@ -14,4 +14,11 @@
     <string name="name_aventura_list">Rafting</string>
     <string name="descripcion_aventura_list">Decripcion</string>
     <string name="Calificacion_aventura_list">Calificacion</string>
+    <string name="depoit_title_string">Rafting</string>
+    <string name="depoit_body_descrption_string">El descenso de ríos o balsismo, conocido mundialmente como rafting, es una actividad deportiva y recreativa que consiste en recorrer el río en la dirección de la corriente (río abajo), por lo general sobre algún tipo de embarcación.</string>
+    <string name="detpoi_label_description_string">"Descripción: "</string>
+    <string name="detpoi_label_rating_string">Calificación</string>
+    <string name="detpoi_body_rating_string" >4.5</string>
+    <string name="description_detalle_portada">Imagen portada</string>
+    <string name="description_detpoi_imageView" />
 </resources>
